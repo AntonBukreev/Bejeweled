@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Bejeweled">
+    <configurations>
+      <configuration name="Bejeweled" pure-as="true" main-class="Main" output-file="Bejeweled.swf" output-folder="$MODULE_DIR$/out">
+        <dependencies target-player="18.0">
+          <entries>
+            <entry library-id="33716e53-fc2b-4ec2-995c-f3327dda7767">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9dab6a97-fac2-4e37-9546-cc1b002cdbea">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="d2bf36b0-8bb3-46e1-beae-7551ea6e06af">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIR" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIR" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="33716e53-fc2b-4ec2-995c-f3327dda7767" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/lib/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9dab6a97-fac2-4e37-9546-cc1b002cdbea" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/lib/Starling-Extension-Graphics.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d2bf36b0-8bb3-46e1-beae-7551ea6e06af" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/lib/dynamicTextureAtlasGenerator/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
